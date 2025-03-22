@@ -1,0 +1,125 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">syntax-highlighting</S>
+      <Version N="Version">2.0.3</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Syntax highlighting for PowerShell</S>
+      <S N="Author">Brian Tannert &amp; Rajeswar Khan</S>
+      <S N="CompanyName">digitalguy99</S>
+      <S N="Copyright">(c) 2022-2023 Brian Tannert and Rajeswar Khan. All rights reserved.</S>
+      <DT N="PublishedDate">2024-09-14T05:39:22+05:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2025-03-22T19:51:45.1340316+05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://github.com/digitalguy99/pwsh-syntax-highlighting/blob/main/LICENSE</URI>
+      <URI N="ProjectUri">https://github.com/digitalguy99/pwsh-syntax-highlighting</URI>
+      <URI N="IconUri">https://evgeniypeshkov.gallerycdn.vsassets.io/extensions/evgeniypeshkov/syntax-highlighter/0.5.0/1603295122989/Microsoft.VisualStudio.Services.Icons.Default</URI>
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>powershell</S>
+          <S>syntax-highlighting</S>
+          <S>command-validation</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <Nil N="ReleaseNotes" />
+      <Obj N="Dependencies" RefId="6">
+        <TNRef RefId="2" />
+        <LST />
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="7">
+        <TN RefId="4">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">(c) 2022-2023 Brian Tannert and Rajeswar Khan. All rights reserved.</S>
+          <S N="description">Syntax highlighting for PowerShell</S>
+          <S N="requireLicenseAcceptance">False</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">25712</S>
+          <S N="downloadCount">39670</S>
+          <S N="packageSize">6696</S>
+          <S N="published">14.09.2024 5:39:22 +05:00</S>
+          <S N="created">14.09.2024 5:39:22 +05:00</S>
+          <S N="lastUpdated">22.03.2025 12:00:00 +05:00</S>
+          <S N="tags">powershell syntax-highlighting command-validation PSModule</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2025-03-22T12:00:00Z</S>
+          <S N="NormalizedVersion">2.0.3</S>
+          <S N="Authors">Brian Tannert &amp; Rajeswar Khan</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">syntax-highlighting.nuspec|syntax-highlighting.psm1|LICENSE|syntax-highlighting.psd1|README.md</S>
+          <S N="GUID">9f55f62a-1096-4eb1-89e0-48f734115316</S>
+          <S N="CompanyName">Unknown</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\mased\Documents\PowerShell\Modules\syntax-highlighting\2.0.3</S>
+    </MS>
+  </Obj>
+</Objs>
