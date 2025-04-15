@@ -5,4 +5,4 @@ ${function:....} = { Set-Location ..\..\.. }
 ${function:.....} = { Set-Location ..\..\..\.. }
 ${function:......} = { Set-Location ..\..\..\..\.. }
 
-Set-Alias code code-insiders
+Set-Alias touch Touch-File
