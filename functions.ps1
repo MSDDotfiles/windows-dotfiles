@@ -114,6 +114,15 @@ function Out-HostColored {
     }
 }
 
+Remove-Item -ErrorAction Ignore Alias:rm # remove the built-in `rm` alias
+
+function rm {
+	param([switch] $rf)
+
+	$extraArgs = if ($rf) { @{ Recurse=$true; Force=$true } } else { @{} }
+
+	($MyInvocation.ExpectingInput) ? ($input | Remove-Item @args @extraArgs) : (Remove-Item @args @extraArgs)
+}
 
 function Touch-File {
     param (
