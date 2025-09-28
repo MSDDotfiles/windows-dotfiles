@@ -6,3 +6,15 @@ ${function:.....} = { Set-Location ..\..\..\.. }
 ${function:......} = { Set-Location ..\..\..\..\.. }
 
 Set-Alias touch Touch-File
+
+if (Get-Command -Name "edit" -ErrorAction SilentlyContinue) {
+	
+} else {
+	winget install Microsoft.Edit
+}
+
+if (Get-Command -Name "bat" -ErrorAction SilentlyContinue) {
+	Set-Alias cat bat
+} else {
+	winget install sharkdp.bat
+}
