@@ -144,3 +144,21 @@ function Touch-File {
 		}
     }
 }
+
+function knock {
+    if ($args.Count -lt 2) {
+        return
+    }
+
+    $server = $args[0]
+    $ports = $args[1..($args.Count - 1)]
+
+    foreach ($port in $ports) {
+        try {
+            $tcp = New-Object System.Net.Sockets.TcpClient
+            $task = $tcp.ConnectAsync($server, $port)
+            $task.Wait(200) | Out-Null
+            $tcp.Close()
+        } catch {}
+    }
+}
